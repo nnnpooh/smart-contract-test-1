@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "F:\\Work\\Coding\\blockchain\\hardhat\\contracts\\Token.sol": {
-      "lastModificationDate": 1643941469655,
-      "contentHash": "66e5ea04b267a9e748b88b41446d8116",
+      "lastModificationDate": 1644537844533,
+      "contentHash": "7acafed68a78e580c2eb2da97ce37754",
       "sourceName": "contracts/Token.sol",
       "solcConfig": {
         "version": "0.7.3",
@@ -30,10 +30,82 @@
       },
       "imports": [],
       "versionPragmas": [
-        "^0.7.0"
+        ">=0.7.0 <0.9.0"
       ],
       "artifacts": [
         "Token"
+      ]
+    },
+    "F:\\Work\\Coding\\blockchain\\hardhat\\contracts\\MyStorage.sol": {
+      "lastModificationDate": 1644537739712,
+      "contentHash": "941ffacf0e17add798a8ee8e1485694f",
+      "sourceName": "contracts/MyStorage.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "MyStorage"
+      ]
+    },
+    "F:\\Work\\Coding\\blockchain\\hardhat\\contracts\\StorageFactory.sol": {
+      "lastModificationDate": 1644537812293,
+      "contentHash": "1e33448e18e358c47f553ecd3bd066e7",
+      "sourceName": "contracts/StorageFactory.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./MyStorage.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "ContractFactory"
       ]
     }
   }
