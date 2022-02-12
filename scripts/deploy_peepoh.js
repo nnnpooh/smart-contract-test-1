@@ -4,6 +4,7 @@
 // When running the script with `npx hardhat run <script>` you'll find the Hardhat
 // Runtime Environment's members available in the global scope.
 const hre = require('hardhat');
+const { ethers } = require('hardhat');
 
 async function main() {
   // Hardhat always runs the compile task when running scripts with its command
@@ -15,7 +16,7 @@ async function main() {
 
   // We get the contract to deploy
   const Greeter = await hre.ethers.getContractFactory('PeepohToken');
-  const greeter = await Greeter.deploy(100000000000);
+  const greeter = await Greeter.deploy(ethers.utils.parseEther('100'));
 
   await greeter.deployed();
 
