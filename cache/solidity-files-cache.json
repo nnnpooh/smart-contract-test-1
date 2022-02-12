@@ -1,44 +1,9 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "F:\\Work\\Coding\\blockchain\\hardhat\\contracts\\Token.sol": {
-      "lastModificationDate": 1644537844533,
-      "contentHash": "7acafed68a78e580c2eb2da97ce37754",
-      "sourceName": "contracts/Token.sol",
-      "solcConfig": {
-        "version": "0.7.3",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        ">=0.7.0 <0.9.0"
-      ],
-      "artifacts": [
-        "Token"
-      ]
-    },
-    "F:\\Work\\Coding\\blockchain\\hardhat\\contracts\\MyStorage.sol": {
-      "lastModificationDate": 1644537739712,
-      "contentHash": "941ffacf0e17add798a8ee8e1485694f",
+    "/home/nnnpooh/Coding/blockchain/smart-contract-test-1/contracts/MyStorage.sol": {
+      "lastModificationDate": 1644666042443,
+      "contentHash": "31369c1c803716440ef3495cc6890f54",
       "sourceName": "contracts/MyStorage.sol",
       "solcConfig": {
         "version": "0.7.3",
@@ -71,9 +36,9 @@
         "MyStorage"
       ]
     },
-    "F:\\Work\\Coding\\blockchain\\hardhat\\contracts\\StorageFactory.sol": {
-      "lastModificationDate": 1644537812293,
-      "contentHash": "1e33448e18e358c47f553ecd3bd066e7",
+    "/home/nnnpooh/Coding/blockchain/smart-contract-test-1/contracts/StorageFactory.sol": {
+      "lastModificationDate": 1644666042443,
+      "contentHash": "070e73a945d602b3a902d3795f69e156",
       "sourceName": "contracts/StorageFactory.sol",
       "solcConfig": {
         "version": "0.7.3",
@@ -106,6 +71,41 @@
       ],
       "artifacts": [
         "ContractFactory"
+      ]
+    },
+    "/home/nnnpooh/Coding/blockchain/smart-contract-test-1/contracts/Token.sol": {
+      "lastModificationDate": 1644666042447,
+      "contentHash": "a6a3e23c41c0166af134700712cfeb73",
+      "sourceName": "contracts/Token.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "Token"
       ]
     }
   }
